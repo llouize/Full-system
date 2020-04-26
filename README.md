@@ -3,4 +3,4 @@ Registration and login system
 
 ### installing
 
-Para que o sitema funcione perfeitamente, é necessário criar um "Banco de Dados" chamado "accounts". Para mais detalhes, dê uma olhada no arquivo register.php. 
+In order to run it on your machine, you need to check the register.php file and change it to your settings. After that, you can run it. 
