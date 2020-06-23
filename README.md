@@ -1,4 +1,4 @@
-# Full System
+# Website
 Registration and login system
 
 ### installing
