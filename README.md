@@ -7,10 +7,10 @@ In order to run it on your machine, you need to check the register.php file and 
 
 ## Authors
 
-* **Luiz Carlos** - *Initial work* - [luikz](https://github.com/luikz)
+* **Luiz Carlos** - *Initial work* - [llouize](https://github.com/llouize)
 
-See also the list of [contributors](https://github.com/luikz/Full-system/graphs/contributors?from=2018-10-14&to=2019-01-23&type=c ) who participated in this project.
+See also the list of [contributors](https://github.com/llouize/Full-system/graphs/contributors?from=2018-10-14&to=2019-01-23&type=c ) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/luikz/Full-system/blob/master/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/llouize/Full-system/blob/master/LICENSE.md) file for details
