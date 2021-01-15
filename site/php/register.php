@@ -38,7 +38,7 @@
             
             // Send registration confirmation link (verify.php)
             $to = $email;
-            $subject = 'Account Verification (luikzc@gmail.com)';
+            $subject = 'Account Verification ('youremail')';
             $message_body = '
             Hello ' . $first_name . ',
             
@@ -48,7 +48,7 @@
             
             http://localhost/site/php/verify.php?email=' . $email . '&hash=' . $hash;
             
-            $headers = 'From: luikzc@gmail.com' . "\r\n";
+            $headers = 'From: youremail' . "\r\n";
             mail($to, $subject, $message_body, $headers);
             header("location: profile.php");
         }else {
