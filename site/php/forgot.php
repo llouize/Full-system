@@ -22,7 +22,7 @@
 
             // Send registration confirmation link (reset.php)
             $to = $email;
-            $subject = 'Password Reset Link (luikzc@gmail.com)';
+            $subject = 'Password Reset Link (youremail)';
             $message_body = '
             Hello ' . $first_name . ',
 
@@ -32,7 +32,7 @@
 
             http://localhost/site/php/reset.php?email=' . $email . '&hash=' . $hash;
 
-            $headers = 'From: luikzc@gmail.com' . "\r\n";
+            $headers = 'From: youremail' . "\r\n";
             mail($to, $subject, $message_body, $headers);
             header("location: success.php"); 
         }
