@@ -44,9 +44,9 @@
                 $message_body .= "$key: $value\n";
             }
 
-            $to = 'lkz-@hotmail.com';
+            $to = 'recipient';
             $subject = 'Contact Form Submit';
-            $headers = 'From: luikzc@gmail.com' . "\r\n";
+            $headers = 'From: sender email' . "\r\n";
             if(mail($to, $subject, $message_body, $headers)) {
                 $success = "Message sent, thank you for contacting us!";
                 $name = $email = $sub = $message = '';
